@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/mibrahim234/NOSQL-Social-Network-Api/issues"
   },
-  "homepage": "https://github.com/mibrahim234/NOSQL-Social-Network-Api#readme"
+  "homepage": "https://github.com/mibrahim234/NOSQL-Social-Network-Api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4"
+  }
 }
