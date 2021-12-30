@@ -10,10 +10,11 @@ const UserSchema = new Schema(
         },
         email: {
             type: String,
-            required: 'You need to provide an email!',
             unique: true,
-            match: [/.+\@.+\..+/]
-        },
+            required: "You need to provide an email!",
+            match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, "You need to provide a valid email"]
+
+        }, 
         thoughts: [
             {
                 type: Schema.Types.ObjectId,
