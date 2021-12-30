@@ -39,6 +39,8 @@ const userController = {
     },
 
      // create User
+     //     // With this .createUser() method, we destructure the body out of the Express.js req object because we don't need to interface with any of the other data it provides
+
      createUser({ body }, res) {
         User.create(body)
             .then(dbUserData => res.json(dbUserData))
