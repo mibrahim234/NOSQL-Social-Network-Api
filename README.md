@@ -1,8 +1,9 @@
 # 18 NoSQL: Social Network API ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 # Walkthrough Video
-Links to the videos:
+Links to the three videos which tests the Api's in Insomnia: 
 [User/Friends](https://watch.screencastify.com/v/7jg8FzcuwS4MuSnup7wr)
-[Thoughts/Reactions](https://github.com/mibrahim234)
+[Thoughts](https://watch.screencastify.com/v/rw3BPe8NdoGx8Wfb5bZp)
+[Reactions](https://watch.screencastify.com/v/yDeFvBQoHjxDLCxrVnRg)
 ## Description 
 This application is the backend of a social media site, allowing users to create a profile, add friends, post thoughts, and react to thoughts. This application is build with express and MongoDB.
 
